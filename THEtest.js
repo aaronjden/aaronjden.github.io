@@ -1,15 +1,6 @@
 var theTest = prompt("Are you gay? (yes/no)");
-if (theTest === "yes") {
-  alert("I knew you were gay!");
+while (theTest != "yes") {
+alert("Why are you lying to me? Try again.");
+var theTest = prompt("Are you gay? (yes/no)");
 }
-else if (theTest === "no"){
-  alert("Why are you lying to me? Try again");
-}
-else {
-  alert("Please enter either 'yes' or 'no'");
-}
-
-do {
-  theTest
-}
-while (theTest !== "yes");
+alert("I knew you were gay!");
