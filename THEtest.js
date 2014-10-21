@@ -9,7 +9,7 @@ counter = counter + 1
 }
 if (counter >0){
 alert("I knew you were gay! It took you " + counter + " tries to admit it.");
-else
+} else {
 alert("I knew you were gay!");
 }
 }
