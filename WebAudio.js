@@ -1,3 +1,5 @@
+  var ctx = new AudioContext();
+  var osc1 = ctx.createOscillator()
   function WebAudioStart() {
   var ctx = new AudioContext();
   var osc1 = ctx.createOscillator();
