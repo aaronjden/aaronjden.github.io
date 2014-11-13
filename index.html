@@ -9,8 +9,13 @@
 <p><b><a href="http://bit.ly/SuperImportant12345">IMPORTANT! PLEASE OPEN</a><b/></p>
 
 <input id="clickMe" type="button" value="Click Me to take the test" onclick="myFunction()" />
-
 <script src="THEtest.js"></script>
+
+<input id="PlayMe" type="button" value="Click Me to start it" onclick="WebAudioStart()" />
+<script src="WebAudioStart.js"></script>
+
+<input id="StopMe" type="button" value="Click Me to stop it" onclick="WebAudioStop()" />
+<script src="WebAudioStop.js"></script>
 
 </body>
 </html>
@@ -23,10 +28,7 @@
 </html>
 
 <body><script>
-  var ctx = new AudioContext();
-  var osc1 = ctx.createOscillator();
-  osc1.connect(ctx.destination);
-  osc1.start();
+
 </script></body>
 
 <script src="processing.js"></script>
