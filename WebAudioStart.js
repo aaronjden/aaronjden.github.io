@@ -4,3 +4,7 @@
   osc1.connect(ctx.destination);
   osc1.start();
   }
+
+  function WebAudioStop() {
+  osc1.stop();
+  }
