@@ -22,5 +22,12 @@
 </body>
 </html>
 
+<body><script>
+  var ctx = new AudioContext();
+  var osc1 = ctx.createOscillator();
+  osc1.connect(ctx.destination);
+  osc1.start();
+</script></body>
+
 <script src="processing.js"></script>
 <canvas data-processing-sources="http://aaronjden.github.io/processingTest1.pde"></canvas>
