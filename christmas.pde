@@ -21,7 +21,7 @@ void snow() {
     fill(255);
     posX = int(random(0, width));
     ellipse(posX, snowArr[posY], 10, 10);
-    posY++;
+    posY=posY+10;
   }
 }
 
