@@ -18,7 +18,17 @@ void snow() {
 
   posY = 0;
   while (posY < snowArr.length) { 
-    fill(255);
+  if (mousePressed == true){
+     if (keyPressed == true) {
+      if (key == 'c') {
+        R = int(random(0, 255));
+        G = int(random(0, 255));
+        B = int(random(0, 255));
+        fill(R, G, B);
+      }
+    } else {
+      fill(255);
+    }
     posX = int(random(0, width));
     ellipse(posX, snowArr[posY], 10, 10);
     posY=posY+10;
