@@ -9,14 +9,12 @@ void setup() {
   for (int i = 0; i<snowArr.length; i++) {
     snowArr[i] = i+1;
   }
-  println(snowArr);
 }
 
 void snow() {
-
   posX = int(random(0, width));
-
   posY = 0;
+  
   while (posY < snowArr.length) { 
   if (mousePressed == true){
      if (keyPressed == true) {
